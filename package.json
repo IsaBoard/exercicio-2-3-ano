@@ -1,0 +1,23 @@
+{
+  "name": "exercicio-2-3-ano",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaBoard/exercicio-2-3-ano.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaBoard/exercicio-2-3-ano/issues"
+  },
+  "homepage": "https://github.com/IsaBoard/exercicio-2-3-ano#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
