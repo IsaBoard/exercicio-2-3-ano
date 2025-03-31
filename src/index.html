@@ -1,35 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio03</title>
+    <title>Beauty Salon</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main.css.map">
 </head>
 <body>
-    <haeder>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Beauty<span>Salon</span></div>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Saúde natural para os seus cabelos</h1>
+            <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais.</p>
+            <a href="#contact" class="btn">Agendar um horário</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/escova.png" alt="Cabeleireira atendendo cliente" loading="lazy" />
+        </div>
+    </section>
+
+    <section class="sobre" id="about">
         <div class="container">
-            <div class="titulo">
-                <h2>beutysalon</h2>
+            <div class="imagem">
+                <img src="img/estranhas.png" alt="Equipe do salão de beleza" loading="lazy" />
             </div>
-            <div class="buttons">
-                <button><p>Início</p></button>
-                <button><p>Sobre</p></button>
-                <button><p>Serviço</p></button>
-                <button><p>Depoimentos</p></button>
-                <button><p>Contato</p></button>
+            <div class="texto">
+                <h2>Sobre nós</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptatibus minima mollitia unde quasi aliquid earum quisquam beatae ducimus? Similique culpa odio officia amet nobis voluptatem eum repellendus, provident unde.</p>
             </div>
         </div>
-    </haeder>
-    <main>
-        <div class="box1">
-            <div class="direito">
-                <h3>Saúde natural para os seus cabelos</h3>
-                <h4>
-                    Um salão exclusivo em São Paulo, especializado em tratamentos naturais
-                </h4>
-                <button><p>Agende um horario</p></button>
+    </section>
+
+    <section class="servicos" id="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/rlx.png" alt="Terapia capilar" loading="lazy" />
+                    <h3>Terapia Capilar</h3>
+                    <p>Tratamentos completos para couro cabeludo e fios.p>
+                </div>
+                <div class="card">
+                    <img src="img/tesoura.png" alt="Cortes modernos" loading="lazy" />
+                    <h3>Cortes Personalizados</h3>
+                    <p>Tratamentos completos para couro cabeludo e fios.</p>
+                </div>
+                <div class="card">
+                    <img src="img/creme.png" alt="Tratamentos naturais" loading="lazy" />
+                    <h3>Hidratação Vegana</h3>
+                    <p>Tratamentos completos para couro cabeludo e fios.</p>
+                </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Entre em contato e agende seu horário conosco!</p>
+            <div class="contact-info">
+                <p><img src="img/telefone.png" alt="Telefone" /> <a href="tel:+5511998486754">(11) 99848-6754</a></p>
+                <p><img src="img/localização.png" alt="Endereço" /> <a href="https://goo.gl/maps/" target="_blank">Rua Amauri Souza, 346</a></p>
+                <p><img src="img/e-mail.png" alt="Email" /> <a href="mailto:contato@beautysalon.com">contato@beautysalon.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">BeautySalon</div>
+            <p>&copy; 2024 BeautySalon. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+                <a href="#"><img src="img/facebook (1).png" alt="Facebook" /></a>
+                <a href="#"><img src="img/youtube (1).png" alt="YouTube" /></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
